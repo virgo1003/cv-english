@@ -1,0 +1,19 @@
+.header h2 ::after {
+  display: block;
+  content: "";
+  background-color: black;
+  height: 1px;
+  width: 100%;
+  margin: .5rem auto;
+}
+
+.footer h4 ::after {
+  display: block;
+  content: "";
+  background-color: grey;
+  height: 1px;
+  width: 100%;
+  margin: .5rem auto;
+}
+
+a {color: black;}
